@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  background-color: violet;
+}
+ul li {
+  padding: 10;
+}
+
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+ul li a:hover {
+  color: brown;
+}/*# sourceMappingURL=style.css.map */

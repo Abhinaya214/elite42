@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    li{
+        padding: 10;
+    }
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: violet;
+}
+ul{
+    li{
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            &:hover{
+                color: brown;
+            }
+        }
+    }
+}
